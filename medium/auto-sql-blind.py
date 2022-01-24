@@ -200,8 +200,7 @@ class Injection:
             for j in range(len(data_list)):
                 dataframe[i].append(data_list[j][i])
         print(tabulate(dataframe, headers=data.keys()))
- 
- #
+
  
 if __name__ == '__main__':
     custom_fig = pyfiglet.Figlet(font='graffiti')
